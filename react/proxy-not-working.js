@@ -16,3 +16,9 @@
 
 // This will route any traffic that starts with /api or /auth to the backend for us.
 // I'm not sure what's causing the proxy to not work for some users.
+
+/*
+create-react-app docs where I found the proxy settings.
+
+https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#configuring-the-proxy-manually
+*/
