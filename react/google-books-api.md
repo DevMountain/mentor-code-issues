@@ -29,7 +29,7 @@ How to make the google books api play with React:
 
 5. Bear in mind: because this interacts with actual DOM nodes, make sure you work with the it when the DOM exists.
 
-6. Not supported by the API: changing the book after it is loaded! 
+6. Current difficulties: changing the book after it has loaded, changing views and returning (window.google.books.load, window.google.books.setOnLoadCallback - only available the first time loaded, after initialization! ) 
 
 (Google Books API docs)[https://developers.google.com/books/docs/viewer/developers_guide]
 
